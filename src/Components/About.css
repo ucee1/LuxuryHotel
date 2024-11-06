@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+.about-image{
+    background-image: linear-gradient(to top, transparent 0%, #00917c 100%), url(../images/poolnight.jpg); 
+    height: 115vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutHeader{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 130px;
+  }
+  .aboutHeader p{
+    width: 30%;
+    margin-left: 450px;
+    
+  }
+
+  .history{
+    display: flex;
+    padding-top: 30px;
+   }
+   .history-img{
+    width: 40%;
+    height: 90vh;
+    background-color: #00917c;
+
+   }
+   .img{
+    width: 100%;
+   }
+   .img img{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+   }
+   .history-content{
+    width: 40%;
+    margin-left: 180px;
+   }
+   .history-content h5{
+    padding-bottom: 60px;
+    color: #00917c;
+    font-weight: bolder;
+   }
+
+   .who-wrapper{
+    background-color: azure;
+}
+
+.who{
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+  }
+  .who-header{
+    color: #00917c;
+    font-weight: bolder;
+  }
+  .who-p{
+    color:rgba(128, 128, 128, 0.772);
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .who-card{
+    padding-top: 30px;
+  }
+  .who-title{
+    font-weight: bolder;
+    color: #00917c;
+  }
+  .who-text{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+  }
+  .card-body a{
+    background-color: #00917c;
+  }
+  .who-details{
+    color: gray;
+  }
+  .rounded-circle{
+   padding: 10px;
+
+    
+  }
+
+  .instagram-test{
+    color: #00917c;
+    font-weight: bolder;
+  }
+  .instagram-text-p{
+    color:rgba(128, 128, 128, 0.772);
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  @media screen and (max-width:990px){
+
+    .aboutHeader{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      padding-top: 30px;
+    }
+    .aboutHeader p{
+      margin-left: 100px;
+      width: 50%;
+      padding: 10px;
+      
+    }
+     
+
+    
+    .section-1{
+      position: relative;
+      bottom: 50px;
+      height: 300px;
+      
+      background-color:white;
+  }
+  .button-2 a{
+    margin-top: 30px;
+  }
+  .history {
+    flex-direction: column;
+    width: 100%;
+  }
+  .history-img{
+    width: 50%;
+    height: 40vh;
+    background-color: #00917c;
+
+   }
+   .img{
+    width: 100%;
+    margin-right: 120px;
+   }
+   .history-content{
+    width: 90%;
+    margin-left: 10px;
+    text-align: justify;
+    padding: 10px;
+    font-size:15px;
+   }
+   .about-content h5{
+    
+    color: #00917c;
+    font-weight: bolder;
+    
+   }
+  }

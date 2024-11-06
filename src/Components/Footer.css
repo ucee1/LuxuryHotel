@@ -1,0 +1,31 @@
+.footer{
+    background-color: azure ;
+    
+}
+
+
+
+.futter-list{
+    padding-top: 20px;
+  }
+  .futter-list li{
+    padding-top: 20px;
+  }
+  .socials{
+    padding-top: 20px;
+  
+  }
+  .socials i{
+    color: #00917c;
+    width: 40%;
+  
+  }
+  .footer-copyright{
+    text-align: center;
+    padding-top: 20px;
+    color: #00917c;
+  }
+
+  .endservices{
+    padding-top: 40px;
+  }

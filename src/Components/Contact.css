@@ -1,0 +1,82 @@
+.contact-image{
+    background-image: linear-gradient(to top, transparent 0%, #00917c 100%), url(../images/poolnight.jpg); 
+    height: 115vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactHeader{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 130px;
+  }
+  .contactHeader p{
+    width: 30%;
+    margin-left: 450px;
+    
+  }
+  .contact-btn{
+    background-color: #00917c;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+  }
+  .contact-address p{
+width: 70%;
+color: gray;
+font-weight: bolder;
+  }
+  .contact-address h5{
+    color: #00917c;
+}
+.contact-phone p{
+color: gray;
+font-weight: bolder;
+  }
+.contact-phone h5{
+    color: #00917c;
+}
+.contact-mail{
+    width: 59%;
+}
+.contact-mail h5{
+color: #00917c;
+
+}
+.contact-mail p{
+font-weight: bolder;
+color: gray;
+
+}
+.contact-socials h5{
+    color: #00917c;
+}
+.contact-socials socials{
+    background-color: #00917c;
+}
+
+
+
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex-direction: column;
+  }
+  
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .contact-address, .contact-phone, .contact-mail, .contact-socials {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-socials .d-flex {
+    justify-content: space-around;
+  }
+}

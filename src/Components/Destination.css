@@ -1,0 +1,19 @@
+.destination-image{
+  background-image: linear-gradient(to top, transparent 0%, #00917c 100%), url(../images/pool.jpg); 
+    height: 115vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destinationHeader{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 130px;
+  }
+  .destinationHeader p{
+    width: 30%;
+    margin-left: 450px;
+    
+  }

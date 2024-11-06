@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .service-header{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 130px;
+  }
+  .service-header p{
+    width: 30%;
+    margin-left: 450px;
+    padding-top: 20px;
+    
+  }
+
+.service-image{
+    background-image: linear-gradient(to top, transparent 0%, #00917c 100%), url(../images/poolnight.jpg); 
+    height: 115vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicesMain{
+  background-color: azure;
+  padding-bottom: 60px;
+  
+}
+.services{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #00917c;
+  
+}
+
+
+.why{
+  display: flex;
+  padding-top: 90px;
+ }
+ .why-img{
+  width: 40%;
+  height: 90vh;
+  background-color: #00917c;
+
+ }
+ .img{
+  width: 100%;
+ }
+ .img img{
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+ }
+ .why-content{
+  width: 40%;
+  margin-left: 180px;
+ }
+ .why-content h5{
+  padding-bottom: 40px;
+  color: #00917c;
+  font-weight: bolder;
+  font-size: 25px;
+ }
+
+ @media screen and (max-width:990px){
+
+  .service-header{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px; */
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      color: white;
+      font-weight: bolder;
+      padding-top: 50px; 
+  }
+  .service-header p{
+     margin-left: 100px;
+    width: 50%;
+    padding: 10px; 
+    /* margin-left: 10px;
+    width: 100%;
+    padding: 10px; */
+    
+  }
+   
+
+  
+  /* .section-1{
+    position: relative;
+    bottom: 50px;
+    height: 300px;
+    
+    background-color:white;
+}
+.button-2 a{
+  margin-top: 30px;
+} */
+.why {
+  flex-direction: column;
+  width: 100%;
+}
+.why-img{
+  width: 50%;
+  height: 40vh;
+  background-color: #00917c;
+
+ }
+ .why-img img{
+  width: 100%;
+  margin-right: 120px;
+  
+ }
+ .why-content{
+  width: 90%;
+  margin-left: 10px;
+  text-align: justify;
+  padding: 10px;
+  font-size:15px;
+ }
+ .why-content h5{
+  
+  color: #00917c;
+  font-weight: bolder;
+  
+ }
+}
